@@ -22,7 +22,8 @@
           </a>
         </div>
         <div class="cell-shrink">
-          <div class="grid gutter-xs-md no-response">
+          <div class="grid gutter-xs-lg no-response">
+            <a href="{{ site.baseurl }}/">Reel</a>
             <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </div>
@@ -38,7 +39,14 @@
 
     <section id="main" role="main">
       <div class="content">
-        {{ content }}
+        <div class="grid justify-between align-middle">
+          <div class="cell-md-8">
+            {{ content }}
+          </div>
+          <div class="cell-md-6 hidden-until-md text-center">
+            <image src="{{ site.baseurl }}/images/logo.png" />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -63,9 +71,9 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="row-black">
       <div class="content">
-        Once collective (C)
+        ONCE COLLECTIVE ©2018
       </div>
     </footer>
 

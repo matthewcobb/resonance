@@ -99,7 +99,7 @@ header {
     width: 4000px;
     .mugshot {
       display: inline-block;
-      background: $grey-fade;
+      background: $grey-faint;
       margin-right: $_2em;
       width: 200px;
       height: 300px;
@@ -108,9 +108,11 @@ header {
 }
 
   footer {
-    background: $black-base;
-    color: $white-base;
     margin: 0 $_2em;
     padding: $_4em 0;
     border-bottom: $_2em solid $white-base;
+    &.row-black {
+      background: $black-base;
+      color: $white-base;
+    }
   }
