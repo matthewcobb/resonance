@@ -25,7 +25,7 @@ header {
   width: 100%;
   overflow: hidden;
   &.hero {
-    background: #2a2a2a;
+    background: #1a1a1a;
     color: $white-base;
     height: 100%;
     border: $_2em solid $white-base;
@@ -67,6 +67,7 @@ header {
       }
 
       iframe {
+        background: #1a1a1a;
         position:absolute;
         left:-10%;top:-10%;overflow:hidden;z-index:auto;height:120%;width:120%
       }

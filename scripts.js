@@ -8,7 +8,7 @@ $(document).ready(function() {
     var iframe = document.createElement( "iframe" );
     iframe.setAttribute( "frameborder", "0" );
     iframe.setAttribute( "allowfullscreen", "" );
-    iframe.setAttribute( "src", "https://www.youtube.com/embed/lOfH89SYESE?rel=0&showinfo=0&autoplay=1" );
+    iframe.setAttribute( "src", "https://www.youtube.com/embed/lOfH89SYESE?rel=0&vq=hd1080&showinfo=0&autoplay=1" );
 
     $(".youtube").append( iframe );
   });
