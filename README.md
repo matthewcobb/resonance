@@ -1,4 +1,6 @@
-# ONCE COLLECTIVE https://matthewcobb.github.io/once-collective/
+# ONCE COLLECTIVE
+Temporary website: https://matthewcobb.github.io/once-collective/
+
 Any file ending in `.md` is an editable markdown file. The main content that is editable is as follows:
 
 Main pages
