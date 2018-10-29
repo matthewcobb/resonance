@@ -20,7 +20,7 @@ $(document).ready(function() {
       $('.learn-more').fadeOut();
     } else {
       $('header').removeClass('nav-fixed');
-      $('.learn-more').fadeIn();
+
     }
   });
 
