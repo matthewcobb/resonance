@@ -14,11 +14,11 @@
   </head>
 
   <body>
-    <header>
+    <header class="hero">
       <nav class="grid justify-between no-response">
         <div class="cell">
           <a href="{{ site.baseurl }}/">
-            <image src="{{ site.baseurl }}/images/logo.png" width="64" />
+            <image src="{{ site.baseurl }}/images/logo-white.png" width="64" />
           </a>
         </div>
         <div class="cell-shrink">
@@ -28,6 +28,12 @@
           </div>
         </div>
       </nav>
+      <div class="video">
+        <div class="placeholder"></div>
+        <image src="{{ site.baseurl }}/images/play-button.svg" class="play-button" />
+        <div class="youtube"></div>
+      </div>
+      <a class="learn-more smooth-scroll" href="#main">Read more</a>
     </header>
 
     <section id="main" role="main">
@@ -36,17 +42,20 @@
       </div>
     </section>
 
+    <section>
+
+    </section>
+
     <footer >
       <div class="content">
-        <footer class="footer">
-
-        </footer>
+        Once collective (C)
       </div>
     </footer>
 
     {% include analytics.html %}
 
    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
-   <script src="scripts.js" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="scripts.js"></script>
   </body>
 </html>
