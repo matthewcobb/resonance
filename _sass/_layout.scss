@@ -52,7 +52,7 @@ header {
       .placeholder {
         height: 100%;
         width: 100%;
-        background: url("images/bg.jpg") center center;
+        background: url("images/bg.svg") center center;
         background-size: cover;
         opacity: 0.8;
         cursor: pointer;
@@ -85,5 +85,11 @@ header {
       font-weight: 900;
     }
   }
-
 }
+
+  footer {
+    background: $grey-faint;
+    margin: $_2em;
+    padding: $_6em;
+    color: $grey-base;
+  }
