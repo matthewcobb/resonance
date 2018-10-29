@@ -14,7 +14,12 @@ html, body {
 section {
   padding: $_3em 0;
   @include bp(sm) {
-    padding: $_6em 0;
+    padding: $_8em 0;
+  }
+  &.row-black {
+    background: $black-base;
+    color: $white-base;
+    margin: 0 $_2em;
   }
 }
 
@@ -87,8 +92,25 @@ header {
   }
 }
 
+.slider {
+  padding: $_2em;
+  overflow-x: scroll;
+  .shots {
+    width: 4000px;
+    .mugshot {
+      display: inline-block;
+      background: $grey-fade;
+      margin-right: $_2em;
+      width: 200px;
+      height: 300px;
+    }
+  }
+}
+
   footer {
-    margin: $_2em;
-    padding: $_6em 0;
-    color: $grey-base;
+    background: $black-base;
+    color: $white-base;
+    margin: 0 $_2em;
+    padding: $_4em 0;
+    border-bottom: $_2em solid $white-base;
   }
