@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('.placeholder').click(function() {
+  $('.placeholder, .play-button').click(function() {
     // Fade out
     $('.placeholder').fadeOut();
     $('.play-button').fadeOut();
