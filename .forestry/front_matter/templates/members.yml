@@ -7,3 +7,5 @@ fields:
   name: members
   label: Members of the once collective
   description: Images of members of the once collective
+pages:
+- members.md
