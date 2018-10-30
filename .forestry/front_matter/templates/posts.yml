@@ -6,3 +6,5 @@ fields:
 - type: file
   name: hero
   label: Hero
+pages:
+- _posts/test.md
