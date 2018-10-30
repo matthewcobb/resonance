@@ -1,0 +1,9 @@
+---
+label: Members
+hide_body: false
+is_partial: false
+fields:
+- type: image_gallery
+  name: members
+  label: Members of the once collective
+  description: Images of members of the once collective
