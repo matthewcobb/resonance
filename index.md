@@ -1,7 +1,10 @@
 ---
 layout: index
 members:
-- "/uploads/IMG_0313.jpg"
+- mugshot: "/uploads/IMG_0313.jpg"
+  name: Alex Kennedy
+- mugshot: "/uploads/IMG_0313.jpg"
+  name: Matthew Cobb
 main_text_area: ''
 members_mugshots:
   mugshot: "/uploads/IMG_0313.jpg"
