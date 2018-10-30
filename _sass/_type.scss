@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  &:not(:first-of-type){
+  &:not(:first-child){
     margin-top: $_4em;
   }
 }
