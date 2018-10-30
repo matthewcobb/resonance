@@ -3,12 +3,17 @@ layout: index
 members:
 - mugshot: "/uploads/IMG_0313.jpg"
   name: Alex Kennedy
+  title: guru
 - mugshot: "/uploads/IMG_0313.jpg"
   name: Matthew Cobb
-main_text_area: ''
-members_mugshots:
-  mugshot: "/uploads/IMG_0313.jpg"
+  title: lover
+- mugshot: "/uploads/IMG_0313.jpg"
   name: Matthew Cobb
+  title: lover
+- mugshot: "/uploads/IMG_0313.jpg"
+  name: Matthew Cobb
+  title: lover
+main_text_area: ''
 
 ---
 ##### Who are we?

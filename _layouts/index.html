@@ -51,23 +51,29 @@
     </section>
 
     <section class="slider">
-      <div class="shots">
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
-        <div class="mugshot"></div>
+      <div class="content">
+        <h5>Meet our members</h5>
+      </div>
+      <div class="shots space-top-xs-lg">
+        {% for member in page.members %}
+          <div class="mugshot">
+            <a href="{{ member.url }}" target="_blank">
+              <image src="{{ site.baseurl}}/{{ member.mugshot }}"/>
+              <h4>{{ member.name }}</h4>
+              <p class="small">{{ member.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </section>
 
     <section class="row-black">
       <div class="content">
-        <h2>Contact us</h2>
+        <h2>Need help with a project?</h2>
+        <p>Shoot us an email: <strong><a href="mailto(oncecollective@gmail.com)">oncecollective@gmail.com</a></strong></p>
+
+        <h2 class="space-top-xs-xxl">Join the collective</h2>
+        <p>We are always on the lookout for new members, register your interest below.</p>
         <!-- Begin Mailchimp Signup Form -->
         <form action="https://oncecollective.us18.list-manage.com/subscribe/post?u=e2c0cc317a66ea23951aa739c&amp;id=88abb015d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="mc-field-group">
@@ -88,7 +94,7 @@
             <div class="response" id="mce-success-response" style="display:none"></div>
           </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e2c0cc317a66ea23951aa739c_88abb015d8" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Send message" name="subscribe" id="mc-embedded-subscribe" class="btn-white btn-full space-top-xs-lg"></div>
+          <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="btn-white btn-full space-top-xs-lg"></div>
         </form>
       </div>
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LASTNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>

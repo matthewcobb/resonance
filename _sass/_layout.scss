@@ -99,10 +99,28 @@ header {
     width: 4000px;
     .mugshot {
       display: inline-block;
-      background: $grey-faint;
+      background: $black-base;
       margin-right: $_2em;
-      width: 200px;
-      height: 300px;
+      padding-bottom: $_1em;
+      width: 400px;
+      text-align: center;
+      color: $white-base;
+      transform: scale(1.0);
+      transition: all 0.4s ease;
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      }
+      img {
+        width: 100%;
+      }
+      h4 {
+        margin-top: $_1em;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+
     }
   }
 }
