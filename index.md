@@ -12,7 +12,7 @@ members:
   title: 'Composer | Sound Engineer '
 - mugshot: "/uploads/ladder.jpg"
   name: Federico Lanzarotta
-  title: Filmmaker | Photographer | Graphic Designer
+  title: Filmmaker | Photographer | Designer
 - mugshot: "/uploads/aiko.jpg"
   name: Aiko Dayap
   title: Producer | Filmmaker
