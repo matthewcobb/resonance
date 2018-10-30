@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A great content
+title: Blog post
 
 ---
 Foreshadowing is a literary device used to hint at events yet to come. It’s a powerful way to create tension or suspense in a story — leaving readers just enough breadcrumbs to keep them hungry for more.

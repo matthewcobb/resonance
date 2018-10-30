@@ -31,4 +31,4 @@ Our ambitions align with the whole and the individual, creating a sense of commu
 
 ### Visualise the vision
 
-Our network is born in the area of film production... this is interesting
+Our ambitions align with the whole and the individual, creating a sense of community, giving the individual the support that freelancers tend to lack. By having...
