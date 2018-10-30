@@ -16,3 +16,5 @@ fields:
     label: Name
   label: Members mugshots
   name: members_mugshots
+pages:
+- index.md

@@ -1,5 +1,11 @@
 ---
 layout: index
+members:
+- "/uploads/IMG_0313.jpg"
+main_text_area: ''
+members_mugshots:
+  mugshot: "/uploads/IMG_0313.jpg"
+  name: Matthew Cobb
 
 ---
 ##### Who are we?
