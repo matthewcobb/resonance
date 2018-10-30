@@ -96,26 +96,37 @@ header {
   padding: $_2em;
   overflow-x: scroll;
   .shots {
-    width: 4000px;
+    white-space: nowrap;
     .mugshot {
+      white-space: wrap;
       display: inline-block;
-      background: $black-base;
+      background: $grey-fade;
       margin-right: $_2em;
       padding-bottom: $_1em;
-      width: 400px;
+      width: 360px;
       text-align: center;
-      color: $white-base;
       transform: scale(1.0);
       transition: all 0.4s ease;
       &:hover {
         transform: scale(1.02);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      }
+      .img-container {
+        position: relative;
+        height: 500px;
+        overflow: hidden;
       }
       img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         width: 100%;
+        height: auto;
+        transform: scale(1.04);
       }
       h4 {
-        margin-top: $_1em;
+        margin-top: $_2em;
       }
       a:hover {
         text-decoration: none;

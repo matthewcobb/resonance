@@ -57,8 +57,10 @@
       <div class="shots space-top-xs-lg">
         {% for member in page.members %}
           <div class="mugshot">
-            <a href="{{ member.url }}" target="_blank">
+            <div class="img-container">
               <image src="{{ site.baseurl}}/{{ member.mugshot }}"/>
+            </div>
+            <a href="{{ member.url }}" target="_blank">
               <h4>{{ member.name }}</h4>
               <p class="small">{{ member.title }}</p>
             </a>
