@@ -6,7 +6,7 @@ html, body {
 
 .content {
   max-width: 1024px;
-  padding: 0 $_2em;
+  padding: 0 $_4em;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -15,6 +15,9 @@ section {
   padding: $_3em 0;
   @include bp(sm) {
     padding: $_8em 0;
+  }
+  &.flush-bottom {
+    padding-bottom: 0;
   }
   &.row-black {
     background: $black-base;
@@ -80,6 +83,7 @@ header {
   }
 
   nav {
+    width: 100%;
     box-sizing: border-box;
     z-index: 10;
     a {
@@ -93,7 +97,6 @@ header {
 }
 
 .slider {
-  padding: $_2em;
   overflow-x: scroll;
   .shots {
     white-space: nowrap;
@@ -101,12 +104,15 @@ header {
       white-space: wrap;
       display: inline-block;
       background: $grey-fade;
-      margin-right: $_2em;
+      margin: $_2em 0 $_2em $_2em ;
       padding-bottom: $_1em;
       width: 360px;
       text-align: center;
       transform: scale(1.0);
       transition: all 0.4s ease;
+      &:last-of-type {
+        margin-right: $_2em;
+      }
       &:hover {
         transform: scale(1.02);
         box-shadow: 0 8px 20px rgba(0,0,0,0.5);
@@ -137,9 +143,11 @@ header {
 }
 
   footer {
-    margin: 0 $_2em;
     padding: $_4em 0;
+    border-left: $_2em solid $white-base;
+    border-right: $_2em solid $white-base;
     border-bottom: $_2em solid $white-base;
+    text-align: center;
     &.row-black {
       background: $black-base;
       color: $white-base;
