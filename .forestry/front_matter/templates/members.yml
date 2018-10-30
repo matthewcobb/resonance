@@ -10,3 +10,8 @@ fields:
   name: members
   label: Members of the once collective
   description: Images of members of the once collective
+- type: field_group
+  fields:
+  - type: file
+    name: member_image
+    label: member image
