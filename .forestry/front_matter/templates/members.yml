@@ -6,10 +6,6 @@ fields:
 - type: textarea
   name: main_text_area
   label: Main text area
-- type: image_gallery
-  name: members
-  label: Members of the once collective
-  description: Images of members of the once collective
 - type: field_group
   fields:
   - type: file
@@ -18,3 +14,5 @@ fields:
   - type: text
     name: name
     label: Name
+  label: Members mugshots
+  name: members_mugshots
