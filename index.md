@@ -1,18 +1,21 @@
 ---
 layout: index
 members:
-- mugshot: "/uploads/IMG_0313.jpg"
+- mugshot: "/uploads/alex.jpg"
   name: Alex Kennedy
-  title: guru
-- mugshot: "/uploads/IMG_0313.jpg"
-  name: Matthew Cobb
-  title: lover
-- mugshot: "/uploads/IMG_0313.jpg"
-  name: Matthew Cobb
-  title: lover
-- mugshot: "/uploads/IMG_0313.jpg"
-  name: Matthew Cobb
-  title: lover
+  title: VFX artist
+- mugshot: "/uploads/image-1.jpg"
+  name: Juanita Villalobos
+  title: Creative Director / Project Manager
+- mugshot: "/uploads/terrace.jpg"
+  name: Marco Naletto
+  title: 'Composer | Sound Engineer '
+- mugshot: "/uploads/ladder.jpg"
+  name: Federico Lanzarotta
+  title: Filmmaker | Photographer | Graphic Designer
+- mugshot: "/uploads/aiko.jpg"
+  name: Aiko Dayap
+  title: Producer | Filmmaker
 main_text_area: ''
 
 ---
