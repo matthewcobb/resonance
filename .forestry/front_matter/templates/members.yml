@@ -9,8 +9,8 @@ fields:
 - type: field_group
   fields:
   - type: file
-    name: member_image
-    label: member image
+    name: mugshot
+    label: mugshot
   - type: text
     name: name
     label: Name
