@@ -1,8 +1,11 @@
 ---
-label: Members
+label: Homepage
 hide_body: false
 is_partial: false
 fields:
+- type: textarea
+  name: main_text_area
+  label: Main text area
 - type: image_gallery
   name: members
   label: Members of the once collective
