@@ -98,18 +98,23 @@ header {
 
 .slider {
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   .shots {
     white-space: nowrap;
     .mugshot {
-      white-space: wrap;
+      vertical-align: top;
+      white-space: initial;
       display: inline-block;
       background: $grey-fade;
       margin: $_2em 0 $_2em $_2em ;
       padding-bottom: $_1em;
-      width: 360px;
+      width: 250px;
       text-align: center;
       transform: scale(1.0);
       transition: all 0.4s ease;
+      @include bp(md) {
+        width: 360px;
+      }
       &:last-of-type {
         margin-right: $_2em;
       }
@@ -119,7 +124,10 @@ header {
       }
       .img-container {
         position: relative;
-        height: 500px;
+        height: 300px;
+        @include bp(md) {
+          height: 500px;
+        }
         overflow: hidden;
       }
       img {
