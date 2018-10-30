@@ -13,5 +13,11 @@ fields:
   - type: text
     name: name
     label: Name
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: url
+    label: URL
 pages:
 - index.md
