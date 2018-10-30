@@ -17,3 +17,6 @@ Types of foreshadowing
 There are as many ways to foreshadow as there are stories to tell, so the possibilities are endless. But head to the library and you’ll likely find two broad categories of foretelling in novels: direct and indirect.
 
 Direct foreshadowing occurs when an outcome is directly hinted at or indicated. It gives readers a nugget of information, prompting them to want more. Indirect foreshadowing occurs when an outcome is indirectly hinted at or indicted. It subtly nods at a future event, but is typically only apparent to readers after that outcome or event has occurred. Pretty straightforward, right? Now let’s see a few examples of the former in action...
+
+![](/uploads/IMG_0313.jpg)
+<center>Centered text</center>
