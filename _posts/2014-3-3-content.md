@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A great content
----
 
+---
 Foreshadowing is a literary device used to hint at events yet to come. It’s a powerful way to create tension or suspense in a story — leaving readers just enough breadcrumbs to keep them hungry for more.
 
 By the end of this article, writers will know the secret to crafting gripping page-turners.
@@ -10,11 +10,12 @@ By the end of this article, writers will know the secret to crafting gripping pa
 See? You know something is about to happen, but you don’t yet know how it will come about — and it’s the “how” that matters. The “how” is what bridges the beginning to the end or, in this case, the introduction to the conclusion. The “how” is the information that readers want, and foreshadowing promises to eventually give it to them.
 
 ### heading 3
+
 Now that we’ve hopefully piqued your interest with our own dose of foreshadowing, let’s talk about why this literary device is such a key tool in an author’s arsenal.
 
 Types of foreshadowing
 There are as many ways to foreshadow as there are stories to tell, so the possibilities are endless. But head to the library and you’ll likely find two broad categories of foretelling in novels: direct and indirect.
 
-Direct foreshadowing occurs when an outcome is directly hinted at or indicated. It gives readers a nugget of information, prompting them to want more.
-Indirect foreshadowing occurs when an outcome is indirectly hinted at or indicted. It subtly nods at a future event, but is typically only apparent to readers after that outcome or event has occurred.
-Pretty straightforward, right? Now let’s see a few examples of the former in action.
+Direct foreshadowing occurs when an outcome is directly hinted at or indicated. It gives readers a nugget of information, prompting them to want more. Indirect foreshadowing occurs when an outcome is indirectly hinted at or indicted. It subtly nods at a future event, but is typically only apparent to readers after that outcome or event has occurred. Pretty straightforward, right? Now let’s see a few examples of the former in action...
+
+{{ site.baseurl }}3
